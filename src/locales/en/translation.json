@@ -1,0 +1,303 @@
+{
+  "navigation": {
+    "gallery": "gallery",
+    "amenities": "amanities",
+    "location": "location",
+    "about": "about",
+    "accommodation": "accommodation",
+    "contactUs": "contact us",
+    "celebrations": "celebrations",
+    "experiences": "experiences"
+  },
+  "common": {
+    "reserve": "RESERVE",
+    "viewDetail": "VIEW DETAIL",
+    "seeMore": "SEE MORE"
+  },
+  "hero": {
+    "bgAlt": "Fairways Villa Background",
+    "scrollLabel": "Scroll Down to About Us"
+  },
+  "about": {
+    "tag": "About Us",
+    "heading": "Finding <italic>your</italic> Rightful Path, <br/> <italic>an</italic> elegant stroke <italic>of</italic> harmony",
+    "description": "Inspired by the pristine path of a fairway, Fairways Villa is a refined sanctuary where chaos fades and clarity begins. Crafted with meticulous precision amidst natural serenity, we offer more than a luxurious stay—it is a transition into absolute peace. Step in, restore your balance, and let us welcome you to your beautiful journey home.",
+    "locationPinAlt": "Location Pin",
+    "address": "Kadriye, 07525 Serik/Antalya, Turkey, V29H+7H Serik, Antalya, Turkey"
+  },
+  "villa": {
+    "bgAlt": "Fairways Villa Background",
+    "title": "fairways villa",
+    "priceAlt": "Price",
+    "pricePerNight": "300/night",
+    "priceUnit": "night",
+    "bedrooms": "3 Bedrooms",
+    "bathrooms": "2 Bathrooms",
+    "detailTitle": "villa detail"
+  },
+  "gallery": {
+    "tag": "gallery",
+    "title": "a closer look",
+    "description": "Discover the design, textures, and moments that make the villa truly special.",
+    "alt1": "Villa Living Room Wide",
+    "alt2": "Villa Living Room Corner",
+    "alt3": "Villa Bedroom Red Blanket",
+    "alt4": "Villa Pool and Gardens",
+    "alt5": "Villa Bedroom Cozy",
+    "alt6": "Villa Bedroom Grey Style",
+    "alt7": "Villa Exterior and Blue Sky"
+  },
+  "neighbourhood": {
+    "tag": "Property surroundings",
+    "title": "The Neighbourhood",
+    "description": "Ideally located in a peaceful yet strategic setting, the villa offers easy access to top attractions, dining spots, and leisure destinations—allowing you to enjoy both privacy and convenience throughout your stay.",
+    "cards": {
+      "kadriye": "Kadriye Beach",
+      "legends": "The Land of Legends Theme Park",
+      "aspendos": "Aspendos Ancient Theatre",
+      "belek": "Belek Public Beach"
+    },
+    "headers": {
+      "transportation": "Transportation",
+      "beaches": "Beaches",
+      "attractions": "Entertainment & Attractions",
+      "conveniences": "Nearby Conveniences",
+      "markets": "Markets & Shopping"
+    },
+    "transportationList": [
+      { "name": "Antalya Airport", "detail": "30 km (25–30 minutes)" },
+      { "name": "Antalya City Center", "detail": "38 KM (35–40 minutes)" },
+      { "name": "Kaleiçi (Antalya Old Town)", "detail": "40 KM (40 minutes)" },
+      { "name": "Serik Town Center", "detail": "10 KM" },
+      { "name": "Belek Center", "detail": "4 KM" }
+    ],
+    "beachesList": [
+      { "name": "Kadriye Public Beach", "detail": "3 KM (5 minutes)" },
+      { "name": "Belek Public Beach", "detail": "6 KM" },
+      { "name": "Private hotel beaches in Belek", "detail": "5–10 minutes" }
+    ],
+    "attractionsList": [
+      {
+        "name": "The Land of Legends Theme Park",
+        "detail": "2.7 KM (5 minutes)"
+      },
+      { "name": "World-class golf courses", "detail": "2–5 minutes" },
+      { "name": "Aspendos Ancient Theatre", "detail": "20 KM (20 minutes)" },
+      { "name": "Perge Ancient City", "detail": "30 KM" },
+      { "name": "Kurşunlu Waterfall", "detail": "32 KM" },
+      { "name": "Antalya Kaleici & Marina", "detail": "40 KM" },
+      { "name": "Tünektepe Cable Car", "detail": "50 KM" },
+      { "name": "Düden Waterfalls", "detail": "35 KM" }
+    ],
+    "conveniencesList": [
+      { "name": "Restaurants & cafés" },
+      { "name": "Pharmacies" },
+      { "name": "ATMs" },
+      { "name": "Souvenir shops" },
+      { "name": "Shopping spots" }
+    ],
+    "marketsList": [
+      { "name": "ALİÇO MARKET 1" },
+      { "name": "SKY MARKET" },
+      { "name": "Kaya Market" },
+      { "name": "Yıldız Market" },
+      { "name": "Kadriye Tuesday Bazaar" }
+    ]
+  },
+  "faq": {
+    "tag": "Frequently Asked Questions",
+    "title": "Everything You Need to Know",
+    "leftFaqItems": [
+      {
+        "id": "guests",
+        "question": "How many guests can sleep at Fairways villa?",
+        "answer": "Fairways villa can comfortably accommodate up to 6 guests, making it perfect for family vacations or small groups."
+      },
+      {
+        "id": "private-pool",
+        "question": "Is there a private pool available to guests staying at Fairways villa?",
+        "answer": "Yes, guests can enjoy a fully private outdoor swimming pool, complete with sun loungers and a garden view, ensuring absolute privacy."
+      },
+      {
+        "id": "has-pool",
+        "question": "Does Fairways villa have a pool?",
+        "answer": "Yes, the villa features a private pool with a view, which is recently renovated and maintained to the highest standards."
+      },
+      {
+        "id": "balcony",
+        "question": "Does Fairways villa have a balcony?",
+        "answer": "Yes, the villa features a balcony that offers beautiful views of the pool and the surrounding landscaped garden."
+      },
+      {
+        "id": "terrace",
+        "question": "Does Fairways villa have a terrace?",
+        "answer": "Yes, there is a spacious outdoor terrace/patio equipped with seating, ideal for dining al fresco or relaxing in the evening."
+      }
+    ],
+    "rightFaqItems": [
+      {
+        "id": "check-in-out",
+        "question": "What are the check-in and check-out times at Fairways villa?",
+        "answer": "Check-in at Fairways villa is from 12:00 PM onwards, and check-out is required by 10:00 AM. Dynamic check-in/out can be requested depending on availability."
+      },
+      {
+        "id": "bedrooms",
+        "question": "How many bedrooms does Fairways villa have?",
+        "answer": "Fairways villa has 3 elegantly furnished bedrooms, designed for maximum comfort and relaxation."
+      },
+      {
+        "id": "cost",
+        "question": "How much does it cost to stay at Fairways villa?",
+        "answer": "The cost of staying at Fairways villa varies depending on your dates, length of stay, and hotel policies. Please enter your preferred dates to view exact prices."
+      },
+      {
+        "id": "things-to-do",
+        "question": "What is there to do at Fairways villa?",
+        "answer": "Guests can swim in the private pool, relax in the garden or shared lounge, or explore world-class golf courses and Kadriye Public Beach nearby."
+      },
+      {
+        "id": "distance-center",
+        "question": "How far is Fairways villa from the centre of Belek?",
+        "answer": "Fairways villa is 2.6 km from the centre of Belek."
+      }
+    ]
+  },
+  "testimoni": {
+    "tag": "Guest Experiences",
+    "title": "Stories from Our Guests",
+    "reviews": [
+      {
+        "id": "stuart",
+        "text": "Been visiting Turkey every year for last 15yrs, and this was by far the best vacation ever",
+        "name": "Stuart",
+        "country": "United Kingdom"
+      },
+      {
+        "id": "impram",
+        "text": "Definitiv nächstes Jahr wieder in der Fairways Villa",
+        "name": "Impram",
+        "country": "Germany"
+      },
+      {
+        "id": "fielding",
+        "text": "Sinan was a great host, he greeted us on our arrival at the villa and provided us with food and drink. He also one day...",
+        "name": "Fielding",
+        "country": "United Kingdom"
+      }
+    ]
+  },
+  "cta": {
+    "bgAlt": "Villa Bedroom Retreat",
+    "tag": "Exclusive Escape",
+    "title": "Your Private Mediterranean Paradise Awaits",
+    "description": "Unwind in absolute luxury and privacy at Fairways Villa Belek. Connect with us directly on WhatsApp to secure your booking, enjoy personalized service, and get the guaranteed best direct rates.",
+    "buttonLabel": "Book Now"
+  },
+  "footer": {
+    "contactUs": "Contact Us",
+    "location": "Location",
+    "address": "Kadriye, 07525 Serik/Antalya, Turkey, V29H+7H Serik, Antalya, Turkey",
+    "rights": "solva studio ALL RIGHTS RESERVED",
+    "logoTitle": "fairways",
+    "logoSubtitle": "villa"
+  },
+  "villaDetail": {
+    "overview": "Overview",
+    "overviewText": "Fairways villa in Belek offers a spacious, recently renovated villa with three bedrooms and two bathrooms. The property features a living room, private check-in and check-out services, and a 24-hour front desk.",
+    "pricePerNight": "300/",
+    "priceUnit": "night",
+    "guestsMax": "6 Guests Max",
+    "exceptionalStay": "10.0 / 10 Exceptional Stay",
+    "address": "Kadriye, 07525 Serik/Antalya, Turkey, V29H+7H Serik, Antalya, Turkey",
+    "highlights": "Highlights",
+    "facilities": "Facilities",
+    "propertyDetails": "Property Details",
+    "checkIn": "Check-in",
+    "checkInTime": "12:00 - 00:00",
+    "checkOut": "Check-out",
+    "checkOutTime": "Until 10:00",
+    "bedrooms": "3 Bedrooms",
+    "bedroomsBed": "1 large double bed",
+    "bathrooms": "2 Bathrooms",
+    "villaSize": "Villa size",
+    "villaSizeVal": "210 m²",
+    "livingRoom": "Living room",
+    "livingRoomBeds": "2 sofa beds",
+    "convenientLocation": "Convenient Location",
+    "airportDist": "32 km from Antalya Airport",
+    "legendsDist": "The Land of Legends Theme Park (2.8 km)",
+    "aspendosDist": "Aspendos Amphitheatre (19 km)",
+    "popularFacilities": "Popular Facilities",
+    "familyRooms": "Family rooms",
+    "frontDesk": "24-hour front desk",
+    "nonSmoking": "Non-smoking rooms",
+    "freeParking": "Free parking",
+    "airportShuttle": "Airport shuttle",
+    "freeWifi": "Free WiFi",
+    "garden": "Garden",
+    "terrace": "Terrace",
+    "pool": "Outdoor swimming pool",
+    "staff": "Multilingual Staff (English, German, Russian, Turkish)",
+    "facilitiesCategories": {
+      "inVillaComfort": "In-Villa Comfort",
+      "livingEntertainment": "Living & Entertainment",
+      "outdoorLiving": "Outdoor Living",
+      "wellnessActivities": "Wellness & Activities",
+      "servicesTransport": "Services & Transport",
+      "safetyGeneral": "Safety & General"
+    },
+    "facilitiesSubcategories": {
+      "bedroom": "Bedroom",
+      "bathroom": "Bathroom",
+      "kitchenDining": "Kitchen & Dining",
+      "general": "General",
+      "livingEntertainment": "Living & Entertainment",
+      "outdoorLiving": "Outdoor Living",
+      "wellnessActivities": "Wellness & Activities",
+      "servicesTransport": "Services & Transport",
+      "safetyGeneral": "Safety & General"
+    },
+    "facilitiesItems": {
+      "premiumLinen": "Premium Linen",
+      "wardrobeDressing": "Wardrobe / Dressing Room",
+      "extraLongBeds": "Extra Long Beds (>2m)",
+      "privateBathroom": "Private Bathroom",
+      "showerBathtub": "Shower & Bathtub",
+      "towelsToiletries": "Towels & Toiletries",
+      "hairdryerSlippers": "Hairdryer & Slippers",
+      "fullyEquippedKitchen": "Fully Equipped Kitchen",
+      "coffeeMachineOvenStovetop": "Coffee Machine, Oven, Stovetop",
+      "refrigeratorKitchenware": "Refrigerator & Kitchenware",
+      "diningTable": "Dining Table",
+      "electricKettle": "Electric Kettle",
+      "childrensHighChair": "Children’s High Chair",
+      "washingMachineDishwasher": "Washing Machine & Dishwasher",
+      "freeWifiAll": "Free WiFi (all areas)",
+      "airConditioning": "Air Conditioning",
+      "sofaLoungeDiningArea": "Sofa Lounge & Dining Area",
+      "workspaceDesk": "Workspace / Desk",
+      "flatScreenTvCableChannels": "Flat-Screen TV & Cable Channels",
+      "privatePool": "Private Pool",
+      "sunTerraceBalcony": "Sun Terrace & Balcony",
+      "gardenPatio": "Garden & Patio",
+      "outdoorDiningArea": "Outdoor Dining Area",
+      "bbqFacilities": "BBQ facilities",
+      "massageServices": "Massage Services (additional charge)",
+      "sunLoungers": "Sun Loungers",
+      "beachAccess": "Beach Access",
+      "golfCourse": "Golf course (within 3 km)",
+      "cyclingDivingHorseRiding": "Cycling, Diving, Horse Riding",
+      "frontDesk24h": "24h Front Desk",
+      "privateCheckInOut": "Private Check-in / Check-out",
+      "housekeepingOnRequest": "Housekeeping (on request)",
+      "airportShuttleAdd": "Airport Shuttle (additional charge)",
+      "carBicycleRental": "Car & Bicycle Rental",
+      "privateParkingOnSite": "Private Parking (on-site)",
+      "safetyDepositBox": "Safety Deposit Box",
+      "smokeAlarmsFireExtinguishers": "Smoke Alarms & Fire Extinguishers",
+      "soundproofRooms": "Soundproof Rooms",
+      "nonSmokingAreas": "Non-Smoking Areas",
+      "multilingualStaffDetail": "Multilingual Staff (English, German, Russian, Turkish)"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "navigation": {
+    "gallery": "galeri",
+    "amenities": "olanaklar",
+    "location": "konum",
+    "about": "hakkımızda",
+    "accommodation": "konaklama",
+    "contactUs": "iletişim",
+    "celebrations": "kutlamalar",
+    "experiences": "deneyimler"
+  },
+  "common": {
+    "reserve": "REZERVASYON YAP",
+    "viewDetail": "DETAYLARI GÖR",
+    "seeMore": "DAHA FAZLA GÖSTER"
+  },
+  "hero": {
+    "bgAlt": "Fairways Villa Arka Planı",
+    "scrollLabel": "Hakkımızda Bölümüne Kaydır"
+  },
+  "about": {
+    "tag": "Hakkımızda",
+    "heading": "Doğru <italic>yolunuzu</italic> bulmak, <br/> <italic>uyumun</italic> zarif bir <italic>dokunuşu</italic>",
+    "description": "Fairways Villa, bir golf sahasının el değmemiş yolundan ilham alan, kaosun kaybolduğu ve netliğin başladığı rafine bir sığınaktır. Doğal sükunet içinde titiz bir hassasiyetle tasarlanan villamız, lüks bir konaklamadan çok daha fazlasını sunar: mutlak huzura geçiş. Adım atın, dengenizi yeniden kurun ve sizi eve giden bu güzel yolculuğunuza kabul edelim.",
+    "locationPinAlt": "Konum Pini",
+    "address": "Kadriye, 07525 Serik/Antalya, Türkiye, V29H+7H Serik, Antalya, Türkiye"
+  },
+  "villa": {
+    "bgAlt": "Fairways Villa Arka Planı",
+    "title": "fairways villa",
+    "priceAlt": "Fiyat",
+    "pricePerNight": "300/gece",
+    "priceUnit": "gece",
+    "bedrooms": "3 Yatak Odası",
+    "bathrooms": "2 Banyo",
+    "detailTitle": "villa detayı"
+  },
+  "gallery": {
+    "tag": "galeri",
+    "title": "daha yakından bir bakış",
+    "description": "Villayı gerçekten özel kılan tasarımı, dokuları ve anları keşfedin.",
+    "alt1": "Geniş Villa Oturma Odası",
+    "alt2": "Villa Oturma Odası Köşesi",
+    "alt3": "Kırmızı Battaniyeli Villa Yatak Odası",
+    "alt4": "Villa Havuzu ve Bahçesi",
+    "alt5": "Konforlu Villa Yatak Odası",
+    "alt6": "Gri Tarz Villa Yatak Odası",
+    "alt7": "Villa Dış Cephesi ve Mavi Gökyüzü"
+  },
+  "neighbourhood": {
+    "tag": "Tesis çevresi",
+    "title": "Çevre & Konum",
+    "description": "Huzurlu ve stratejik bir konumda yer alan villa, en popüler cazibe merkezlerine, yemek mekanlarına ve eğlence yerlerine kolay erişim sunarak konaklamanız boyunca hem mahremiyetin hem de rahatlığın tadını çıkarmanızı sağlar.",
+    "cards": {
+      "kadriye": "Kadriye Plajı",
+      "legends": "The Land of Legends Tema Parkı",
+      "aspendos": "Aspendos Antik Tiyatrosu",
+      "belek": "Belek Halk Plajı"
+    },
+    "headers": {
+      "transportation": "Ulaşım",
+      "beaches": "Plajlar",
+      "attractions": "Eğlence & Turistik Yerler",
+      "conveniences": "Yakın Kolaylıklar",
+      "markets": "Marketler & Alışveriş"
+    },
+    "transportationList": [
+      { "name": "Antalya Havalimanı", "detail": "30 km (25–30 dakika)" },
+      { "name": "Antalya Şehir Merkezi", "detail": "38 KM (35–40 dakika)" },
+      { "name": "Kaleiçi (Antalya Eski Şehir)", "detail": "40 KM (40 dakika)" },
+      { "name": "Serik İlçe Merkezi", "detail": "10 KM" },
+      { "name": "Belek Merkezi", "detail": "4 KM" }
+    ],
+    "beachesList": [
+      { "name": "Kadriye Halk Plajı", "detail": "3 KM (5 dakika)" },
+      { "name": "Belek Halk Plajı", "detail": "6 KM" },
+      { "name": "Belek'teki özel otel plajları", "detail": "5–10 dakika" }
+    ],
+    "attractionsList": [
+      {
+        "name": "The Land of Legends Tema Parkı",
+        "detail": "2.7 KM (5 dakika)"
+      },
+      { "name": "Dünya standartlarında golf sahaları", "detail": "2–5 dakika" },
+      { "name": "Aspendos Antik Tiyatrosu", "detail": "20 KM (20 dakika)" },
+      { "name": "Perge Antik Kenti", "detail": "30 KM" },
+      { "name": "Kurşunlu Şelalesi", "detail": "32 KM" },
+      { "name": "Antalya Kaleiçi & Yat Limanı", "detail": "40 KM" },
+      { "name": "Tünektepe Teleferik", "detail": "50 KM" },
+      { "name": "Düden Şelaleleri", "detail": "35 KM" }
+    ],
+    "conveniencesList": [
+      { "name": "Restoranlar & kafeler" },
+      { "name": "Eczaneler" },
+      { "name": "ATM'ler" },
+      { "name": "Hediyelik eşya dükkanları" },
+      { "name": "Alışveriş noktaları" }
+    ],
+    "marketsList": [
+      { "name": "ALİÇO MARKET 1" },
+      { "name": "SKY MARKET" },
+      { "name": "Kaya Market" },
+      { "name": "Yıldız Market" },
+      { "name": "Kadriye Salı Pazarı" }
+    ]
+  },
+  "faq": {
+    "tag": "Sıkça Sorulan Sorular",
+    "title": "Bilmeniz Gereken Her Şey",
+    "leftFaqItems": [
+      {
+        "id": "guests",
+        "question": "Fairways Villa'da kaç konuk konaklayabilir?",
+        "answer": "Fairways Villa, 6 konuğa kadar rahatça konaklama imkanı sunar; bu da onu aile tatilleri veya küçük gruplar için mükemmel kılar."
+      },
+      {
+        "id": "private-pool",
+        "question": "Fairways Villa'da konukların kullanımına açık özel bir havuz var mı?",
+        "answer": "Evet, konuklar tamamen kendilerine özel, şezlonglar ve bahçe manzarasıyla donatılmış açık yüzme havuzunun keyfini çıkararak mutlak mahremiyetin tadını çıkarabilirler."
+      },
+      {
+        "id": "has-pool",
+        "question": "Fairways Villa'nın havuzu var mı?",
+        "answer": "Evet, villada yakın zamanda yenilenmiş ve en yüksek standartlarda bakımı yapılan manzaralı özel bir havuz bulunmaktadır."
+      },
+      {
+        "id": "balcony",
+        "question": "Fairways Villa'nın balkonu var mı?",
+        "answer": "Evet, villada havuz ve peyzajlı bahçe manzarası sunan bir balkon bulunmaktadır."
+      },
+      {
+        "id": "terrace",
+        "question": "Fairways Villa'nın terası var mı?",
+        "answer": "Evet, açık havada yemek yemek veya akşamları dinlenmek için ideal olan, oturma alanına sahip geniş bir açık teras/patio bulunmaktadır."
+      }
+    ],
+    "rightFaqItems": [
+      {
+        "id": "check-in-out",
+        "question": "Fairways Villa'da giriş ve çıkış saatleri nelerdir?",
+        "answer": "Fairways Villa'ya giriş saati 12:00'den itibaren başlar, çıkış saati ise en geç 10:00'dur. Müsaitliğe bağlı olarak esnek giriş/çıkış talep edilebilir."
+      },
+      {
+        "id": "bedrooms",
+        "question": "Fairways Villa'da kaç yatak odası var?",
+        "answer": "Fairways Villa, maksimum konfor ve dinlenme için tasarlanmış, şık bir şekilde döşenmiş 3 yatak odasına sahiptir."
+      },
+      {
+        "id": "cost",
+        "question": "Fairways Villa'da konaklama ücreti ne kadar?",
+        "answer": "Fairways Villa'da konaklama ücreti tarihlerinize, konaklama süresine ve otel politikalarına göre değişmektedir. Net fiyatları görmek için lütfen tercih ettiğiniz tarihleri girin."
+      },
+      {
+        "id": "things-to-do",
+        "question": "Fairways Villa'da yapılacak neler var?",
+        "answer": "Konuklar özel havuzda yüzebilir, bahçede veya ortak salonda rahatlayabilir veya yakınlardaki dünya standartlarında golf sahalarını ve Kadriye Halk Plajı'nı keşfedebilirler."
+      },
+      {
+        "id": "distance-center",
+        "question": "Fairways Villa, Belek merkezine ne kadar uzaklıkta?",
+        "answer": "Fairways Villa, Belek merkezine 2,6 km uzaklıktadır."
+      }
+    ]
+  },
+  "testimoni": {
+    "tag": "Konuk Deneyimleri",
+    "title": "Misafirlerimizden Hikayeler",
+    "reviews": [
+      {
+        "id": "stuart",
+        "text": "Son 15 yıldır her yıl Türkiye'yi ziyaret ediyorum ve bu açık ara şimdiye kadarki en iyi tatilimdi.",
+        "name": "Stuart",
+        "country": "Birleşik Krallık"
+      },
+      {
+        "id": "impram",
+        "text": "Kesinlikle gelecek yıl yine Fairways Villa'dayız",
+        "name": "Impram",
+        "country": "Almanya"
+      },
+      {
+        "id": "fielding",
+        "text": "Sinan harika bir ev sahibiydi, bizi villaya vardığımızda karşıladı ve yiyecek ile içecek ikram etti. Ayrıca bir gün...",
+        "name": "Fielding",
+        "country": "Birleşik Krallık"
+      }
+    ]
+  },
+  "cta": {
+    "bgAlt": "Villa Yatak Odası Dinlenme Alanı",
+    "tag": "Ayrıcalıklı Kaçış",
+    "title": "Özel Akdeniz Cennetiniz Sizi Bekliyor",
+    "description": "Fairways Villa Belek'te mutlak konfor ve mahremiyetin tadını çıkarın. Rezervasyonunuzu güvence altına almak, kişiselleştirilmiş hizmet almak ve en iyi doğrudan fiyatlardan yararlanmak için doğrudan WhatsApp üzerinden bizimle iletişime geçin.",
+    "buttonLabel": "WhatsApp ile Doğrudan Rezervasyon"
+  },
+  "footer": {
+    "contactUs": "İletişim",
+    "location": "Konum",
+    "address": "Kadriye, 07525 Serik/Antalya, Türkiye, V29H+7H Serik, Antalya, Türkiye",
+    "rights": "solva studio TÜM HAKLARI SAKLIDIR",
+    "logoTitle": "fairways",
+    "logoSubtitle": "villa"
+  },
+  "villaDetail": {
+    "overview": "Genel Bakış",
+    "overviewText": "Belek'teki Fairways villa, üç yatak odası ve iki banyolu geniş, yakın zamanda yenilenmiş bir villa sunmaktadır. Tesiste oturma odası, özel giriş-çıkış hizmetleri ve 24 saat açık resepsiyon bulunmaktadır.",
+    "pricePerNight": "300/",
+    "priceUnit": "gece",
+    "guestsMax": "Maksimum 6 Misafir",
+    "exceptionalStay": "10.0 / 10 Olağanüstü Konaklama",
+    "address": "Kadriye, 07525 Serik/Antalya, Türkiye, V29H+7H Serik, Antalya, Türkiye",
+    "highlights": "Öne Çıkanlar",
+    "facilities": "Olanaklar",
+    "propertyDetails": "Mülk Detayları",
+    "checkIn": "Giriş",
+    "checkInTime": "12:00 - 00:00",
+    "checkOut": "Çıkış",
+    "checkOutTime": "10:00'a kadar",
+    "bedrooms": "3 Yatak Odası",
+    "bedroomsBed": "1 büyük çift kişilik yatak",
+    "bathrooms": "2 Banyo",
+    "villaSize": "Villa Boyutu",
+    "villaSizeVal": "210 m²",
+    "livingRoom": "Oturma Odası",
+    "livingRoomBeds": "2 çekyat",
+    "convenientLocation": "Elverişli Konum",
+    "airportDist": "Antalya Havalimanı'na 32 km",
+    "legendsDist": "The Land of Legends Tema Parkı (2,8 km)",
+    "aspendosDist": "Aspendos Antik Tiyatrosu (19 km)",
+    "popularFacilities": "Popüler Olanaklar",
+    "familyRooms": "Aile odaları",
+    "frontDesk": "24 saat açık resepsiyon",
+    "nonSmoking": "Sigara içilmeyen odalar",
+    "freeParking": "Ücretsiz otopark",
+    "airportShuttle": "Havalimanı servisi",
+    "freeWifi": "Ücretsiz WiFi",
+    "garden": "Bahçe",
+    "terrace": "Teras",
+    "pool": "Açık yüzme havuzu",
+    "staff": "Çok Dilli Personel (İngilizce, Almanca, Rusça, Türkçe)",
+    "facilitiesCategories": {
+      "inVillaComfort": "Villa İçi Konfor",
+      "livingEntertainment": "Yaşam & Eğlence",
+      "outdoorLiving": "Açık Hava Yaşamı",
+      "wellnessActivities": "Sağlık & Aktiviteler",
+      "servicesTransport": "Hizmetler & Ulaşım",
+      "safetyGeneral": "Güvenlik & Genel"
+    },
+    "facilitiesSubcategories": {
+      "bedroom": "Yatak Odası",
+      "bathroom": "Banyo",
+      "kitchenDining": "Mutfak & Yemek",
+      "general": "Genel",
+      "livingEntertainment": "Yaşam & Eğlence",
+      "outdoorLiving": "Açık Hava Yaşamı",
+      "wellnessActivities": "Sağlık & Aktiviteler",
+      "servicesTransport": "Hizmetler & Ulaşım",
+      "safetyGeneral": "Güvenlik & Genel"
+    },
+    "facilitiesItems": {
+      "premiumLinen": "Premium Nevresim",
+      "wardrobeDressing": "Gardırop / Giyinme Odası",
+      "extraLongBeds": "Ekstra Uzun Yataklar (>2m)",
+      "privateBathroom": "Özel Banyo",
+      "showerBathtub": "Duş & Küvet",
+      "towelsToiletries": "Havlu & Banyo Malzemeleri",
+      "hairdryerSlippers": "Saç Kurutma Makinesi & Terlik",
+      "fullyEquippedKitchen": "Tam Donanımlı Mutfak",
+      "coffeeMachineOvenStovetop": "Kahve Makinesi, Fırın, Ocak",
+      "refrigeratorKitchenware": "Buzdolabı & Mutfak Gereçleri",
+      "diningTable": "Yemek Masası",
+      "electricKettle": "Elektrikli Su Isıtıcısı",
+      "childrensHighChair": "Bebek Mama Sandalyesi",
+      "washingMachineDishwasher": "Çamaşır ve Bulaşık Makinesi",
+      "freeWifiAll": "Ücretsiz WiFi (tüm alanlarda)",
+      "airConditioning": "Klima",
+      "sofaLoungeDiningArea": "Sofa Alanı & Yemek Alanı",
+      "workspaceDesk": "Çalışma Alanı / Masa",
+      "flatScreenTvCableChannels": "Düz Ekran TV & Kablolu Yayın",
+      "privatePool": "Özel Havuz",
+      "sunTerraceBalcony": "Güneşlenme Terası & Balkon",
+      "gardenPatio": "Bahçe & Veranda",
+      "outdoorDiningArea": "Açık Havada Yemek Alanı",
+      "bbqFacilities": "Barbekü Olanakları",
+      "massageServices": "Masaj Hizmetleri (ek ücret)",
+      "sunLoungers": "Şezlonglar",
+      "beachAccess": "Plaj Erişimi",
+      "golfCourse": "Golf Sahası (3 km mesafede)",
+      "cyclingDivingHorseRiding": "Bisiklet, Dalış, Binicilik",
+      "frontDesk24h": "24 Saat Resepsiyon",
+      "privateCheckInOut": "Özel Giriş / Çıkış",
+      "housekeepingOnRequest": "Kat Hizmetleri (isteğe bağlı)",
+      "airportShuttleAdd": "Havalimanı Servisi (ek ücret)",
+      "carBicycleRental": "Araba & Bisiklet Kiralama",
+      "privateParkingOnSite": "Özel Otopark (tesis bünyesinde)",
+      "safetyDepositBox": "Emanet Kasası",
+      "smokeAlarmsFireExtinguishers": "Duman Alarmları & Yangın Söndürücüler",
+      "soundproofRooms": "Ses Yalıtımlı Odalar",
+      "nonSmokingAreas": "Sigara İçilmeyen Alanlar",
+      "multilingualStaffDetail": "Çok Dilli Personel (İngilizce, Almanca, Rusça, Türkçe)"
+    }
+  }
+}

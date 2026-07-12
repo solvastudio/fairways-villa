@@ -1,0 +1,100 @@
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+
+interface SplashScreenProps {
+  onComplete?: () => void;
+}
+
+export function SplashScreen({ onComplete }: SplashScreenProps) {
+  const { t } = useTranslation();
+  const [isExiting, setIsExiting] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    // Check if the splash screen has already been shown in this session
+    const hasBeenShown = typeof window !== "undefined" && window.sessionStorage.getItem("splash_shown");
+    
+    if (hasBeenShown) {
+      setIsVisible(false);
+      if (onComplete) {
+        onComplete();
+      }
+      return;
+    }
+
+    // Lock scrolling on mount
+    document.body.style.overflow = "hidden";
+    
+    // Start exit transition after 1.8 seconds
+    const exitTimer = setTimeout(() => {
+      setIsExiting(true);
+    }, 1800);
+
+    // Unmount/hide after the fade-out transition completes (1.8s + 0.8s = 2.6s)
+    const removeTimer = setTimeout(() => {
+      try {
+        window.sessionStorage.setItem("splash_shown", "true");
+      } catch (e) {}
+      setIsVisible(false);
+      document.body.style.overflow = "";
+      if (onComplete) {
+        onComplete();
+      }
+    }, 2600);
+
+    return () => {
+      clearTimeout(exitTimer);
+      clearTimeout(removeTimer);
+      document.body.style.overflow = "";
+    };
+  }, [onComplete]);
+
+  if (!isVisible) return null;
+
+  return (
+    <div className={`splash-overlay ${isExiting ? "exit" : ""}`}>
+      <div className="flex flex-col items-center gap-5 md:gap-7 splash-icon-anim">
+        {/* Star/Ornament Vector */}
+        <svg
+          className="size-16 md:size-[80px] text-text-dark dark:text-[#fdfffc]"
+          viewBox="0 0 50 50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="Vector">
+            <path d="M4.71815 23.2186C-0.109146 18.3913 0.0620986 10.3207 5.19142 5.19142C10.0128 0.370025 17.4329 -0.0707164 22.3154 3.9028C22.8367 4.32702 23.6038 4.3329 24.079 3.85767C18.7364 -1.485 9.89434 -1.23247 4.33094 4.33094C-1.23247 9.89434 -1.485 18.7364 3.85767 24.079L4.71815 23.2186Z" fill="currentColor"/>
+            <path d="M3.85767 24.079L4.71815 23.2186L21.9474 40.193C22.4023 40.6412 22.4051 41.3742 21.9536 41.8258L3.85767 24.079Z" fill="currentColor"/>
+            <path d="M4.71815 23.2186L21.9474 40.193C22.4023 40.6412 22.4051 41.3742 21.9536 41.8258L3.85767 24.079L4.71815 23.2186Z" fill="currentColor"/>
+            <path d="M12.6776 31.2641L11.8171 30.4036L25.0265 17.8562L26.0508 18.6756L12.6776 31.2641Z" fill="currentColor"/>
+            <path d="M11.8171 30.4036L25.0265 17.8562L26.0508 18.6756L12.6776 31.2641L11.8171 30.4036Z" fill="currentColor"/>
+            <path d="M26.7814 4.71815C31.6087 -0.109146 39.6793 0.0620989 44.8086 5.19142C49.63 10.0128 50.0707 17.4329 46.0972 22.3154C45.673 22.8367 45.6671 23.6038 46.1423 24.079C51.485 18.7364 51.2325 9.89434 45.6691 4.33094C40.1057 -1.23247 31.2636 -1.485 25.921 3.85767L26.7814 4.71815Z" fill="currentColor"/>
+            <path d="M25.921 3.85767L26.7814 4.71815L9.80696 21.9474C9.35876 22.4023 8.62578 22.4051 8.17418 21.9536L25.921 3.85767Z" fill="currentColor"/>
+            <path d="M26.7814 4.71815L9.80696 21.9474C9.35876 22.4023 8.62578 22.4051 8.17418 21.9536L25.921 3.85767L26.7814 4.71815Z" fill="currentColor"/>
+            <path d="M18.7359 12.6776L19.5964 11.8171L32.1438 25.0265L31.3244 26.0508L18.7359 12.6776Z" fill="currentColor"/>
+            <path d="M19.5964 11.8171L32.1438 25.0265L31.3244 26.0508L18.7359 12.6776L19.5964 11.8171Z" fill="currentColor"/>
+            <path d="M45.2818 26.7814C50.1091 31.6087 49.9379 39.6793 44.8086 44.8086C39.9872 49.63 32.5671 50.0707 27.6846 46.0972C27.1633 45.673 26.3962 45.6671 25.921 46.1423C31.2636 51.485 40.1057 51.2325 45.6691 45.6691C51.2325 40.1057 51.485 31.2636 46.1423 25.921L45.2818 26.7814Z" fill="currentColor"/>
+            <path d="M46.1423 25.921L45.2818 26.7814L28.0526 9.80696C27.5977 9.35876 27.5949 8.62578 28.0464 8.17418L46.1423 25.921Z" fill="currentColor"/>
+            <path d="M45.2818 26.7814L28.0526 9.80696C27.5977 9.35876 27.5949 8.62578 28.0464 8.17418L46.1423 25.921L45.2818 26.7814Z" fill="currentColor"/>
+            <path d="M37.3224 18.7359L38.1829 19.5964L24.9735 32.1438L23.9492 31.3244L37.3224 18.7359Z" fill="currentColor"/>
+            <path d="M38.1829 19.5964L24.9735 32.1438L23.9492 31.3244L37.3224 18.7359L38.1829 19.5964Z" fill="currentColor"/>
+            <path d="M23.2186 45.2818C18.3913 50.1091 10.3207 49.9379 5.19142 44.8086C0.370025 39.9872 -0.0707163 32.5671 3.9028 27.6846C4.32702 27.1633 4.3329 26.3962 3.85767 25.921C-1.485 31.2636 -1.23247 40.1057 4.33094 45.6691C9.89434 51.2325 18.7364 51.485 24.079 46.1423L23.2186 45.2818Z" fill="currentColor"/>
+            <path d="M24.079 46.1423L23.2186 45.2818L40.193 28.0526C40.6412 27.5977 41.3742 27.5949 41.8258 28.0464L24.079 46.1423Z" fill="currentColor"/>
+            <path d="M23.2186 45.2818L40.193 28.0526C40.6412 27.5977 41.3742 27.5949 41.8258 28.0464L24.079 46.1423L23.2186 45.2818Z" fill="currentColor"/>
+            <path d="M31.2641 37.3224L30.4036 38.1829L17.8562 24.9735L18.6756 23.9492L31.2641 37.3224Z" fill="currentColor"/>
+            <path d="M30.4036 38.1829L17.8562 24.9735L18.6756 23.9492L31.2641 37.3224L30.4036 38.1829Z" fill="currentColor"/>
+          </g>
+        </svg>
+
+        {/* Brand Text */}
+        <div className="flex flex-col items-center leading-none text-text-dark dark:text-[#fdfffc] uppercase">
+          <span className="font-cormorant font-medium text-3xl md:text-5xl tracking-[4.5px] splash-title-anim">
+            {t("footer.logoTitle")}
+          </span>
+          <span className="font-montserrat font-medium text-xs md:text-base tracking-[3.5px] mt-2 splash-subtitle-anim">
+            {t("footer.logoSubtitle")}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
