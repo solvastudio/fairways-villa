@@ -39,6 +39,39 @@ export default function AboutUs() {
             {t("about.description")}
           </p>
 
+          {/* Premium "At a Glance" Section for Users & AI Bots (AEO Optimization) */}
+          <article className="border border-text-dark/10 bg-white/50 backdrop-blur-sm p-6 lg:p-7 rounded-[2px] shadow-sm hover:shadow-md transition-all duration-300 flex flex-col gap-4">
+            <h3 className="font-sans font-medium text-accent-brown text-[14px] lg:text-[16px] tracking-[2px] uppercase">
+              {t("about.atAGlance")}
+            </h3>
+            <div className="flex flex-col gap-4 text-[14px] lg:text-[16px]">
+              <div className="flex flex-col sm:flex-row sm:gap-4 items-start">
+                <span className="font-sans font-semibold text-text-dark min-w-[120px] tracking-[0.5px]">
+                  {t("about.glanceLocation")}:
+                </span>
+                <p className="font-sans text-text-dark/80 tracking-[0.5px] leading-relaxed font-light">
+                  {t("aeoFacts.location")}
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row sm:gap-4 items-start border-t border-text-dark/5 pt-3">
+                <span className="font-sans font-semibold text-text-dark min-w-[120px] tracking-[0.5px]">
+                  {t("about.glanceAmenities")}:
+                </span>
+                <p className="font-sans text-text-dark/80 tracking-[0.5px] leading-relaxed font-light">
+                  {t("aeoFacts.amenities")}
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row sm:gap-4 items-start border-t border-text-dark/5 pt-3">
+                <span className="font-sans font-semibold text-text-dark min-w-[120px] tracking-[0.5px]">
+                  {t("about.glanceIdeal")}:
+                </span>
+                <p className="font-sans text-text-dark/80 tracking-[0.5px] leading-relaxed font-light">
+                  {t("aeoFacts.idealFor")}
+                </p>
+              </div>
+            </div>
+          </article>
+
           {/* Garis Pemisah (Divider) */}
           <div className="w-full">
             <img src="/assets/about-us/line.svg" className="w-full h-px block" alt="" aria-hidden="true" />

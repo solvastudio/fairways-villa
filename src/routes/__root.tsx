@@ -33,8 +33,8 @@ export const Route = createRootRoute({
       },
       {
         rel: "icon",
-        type: "image/png",
-        href: "/logo.png",
+        type: "image/svg+xml",
+        href: "/favicon.svg",
       },
     ],
   }),
@@ -51,25 +51,25 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 
       // 1. Query parameter
       const urlParams = new URLSearchParams(window.location.search);
-      const queryLng = urlParams.get("lng");
-      if (queryLng && ["en", "tr", "ru"].includes(queryLng)) return queryLng;
+      const queryLng = urlParams.get("lng") || urlParams.get("lang");
+      if (queryLng && ["id", "en", "tr", "ru"].includes(queryLng)) return queryLng;
 
       // 2. Cookie
       const cookieLng = document.cookie
         .split("; ")
         .find((row) => row.startsWith("i18next="))
         ?.split("=")[1];
-      if (cookieLng && ["en", "tr", "ru"].includes(cookieLng)) return cookieLng;
+      if (cookieLng && ["id", "en", "tr", "ru"].includes(cookieLng)) return cookieLng;
 
       // 3. LocalStorage
       const localLng = localStorage.getItem("i18nextLng");
-      if (localLng && ["en", "tr", "ru"].includes(localLng)) return localLng;
+      if (localLng && ["id", "en", "tr", "ru"].includes(localLng)) return localLng;
 
       // 4. Navigator browser language
       const navLng = navigator.language || (navigator as any).userLanguage;
       if (navLng) {
         const shortLng = navLng.split("-")[0];
-        if (["en", "tr", "ru"].includes(shortLng)) return shortLng;
+        if (["id", "en", "tr", "ru"].includes(shortLng)) return shortLng;
       }
 
       return "en";

@@ -4,6 +4,7 @@
    <!-- Homepage -->
    <url>
       <loc>{{SITE_URL}}/</loc>
+      <xhtml:link rel="alternate" hreflang="id" href="{{SITE_URL}}/?lang=id"/>
       <xhtml:link rel="alternate" hreflang="en" href="{{SITE_URL}}/?lang=en"/>
       <xhtml:link rel="alternate" hreflang="tr" href="{{SITE_URL}}/?lang=tr"/>
       <xhtml:link rel="alternate" hreflang="ru" href="{{SITE_URL}}/?lang=ru"/>
@@ -13,6 +14,7 @@
    <!-- Halaman Villa Detail -->
    <url>
       <loc>{{SITE_URL}}/villa</loc>
+      <xhtml:link rel="alternate" hreflang="id" href="{{SITE_URL}}/villa?lang=id"/>
       <xhtml:link rel="alternate" hreflang="en" href="{{SITE_URL}}/villa?lang=en"/>
       <xhtml:link rel="alternate" hreflang="tr" href="{{SITE_URL}}/villa?lang=tr"/>
       <xhtml:link rel="alternate" hreflang="ru" href="{{SITE_URL}}/villa?lang=ru"/>

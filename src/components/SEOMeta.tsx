@@ -26,7 +26,7 @@ export default function SEOMeta({ page }: SEOMetaProps) {
     document.documentElement.lang = i18n.language;
 
     // 4. Update hreflang alternate links
-    const languages = ["en", "tr", "ru"];
+    const languages = ["id", "en", "tr", "ru"];
     const currentUrl = window.location.origin + window.location.pathname;
 
     // Remove existing alternate links to avoid duplication on re-renders

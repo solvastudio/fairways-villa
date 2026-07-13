@@ -23,7 +23,11 @@
     "heading": "Finding <italic>your</italic> Rightful Path, <br/> <italic>an</italic> elegant stroke <italic>of</italic> harmony",
     "description": "Inspired by the pristine path of a fairway, Fairways Villa is a refined sanctuary where chaos fades and clarity begins. Crafted with meticulous precision amidst natural serenity, we offer more than a luxurious stay—it is a transition into absolute peace. Step in, restore your balance, and let us welcome you to your beautiful journey home.",
     "locationPinAlt": "Location Pin",
-    "address": "Kadriye, 07525 Serik/Antalya, Turkey, V29H+7H Serik, Antalya, Turkey"
+    "address": "Kadriye, 07525 Serik/Antalya, Turkey, V29H+7H Serik, Antalya, Turkey",
+    "atAGlance": "At a Glance",
+    "glanceLocation": "Location",
+    "glanceAmenities": "Amenities",
+    "glanceIdeal": "Ideal For"
   },
   "villa": {
     "bgAlt": "Fairways Villa Background",
@@ -305,5 +309,10 @@
     "homeDescription": "Experience ultimate luxury at Fairways Villa Belek, Antalya. Private pool, golf course views, and premium amenities. Book your dream vacation today!",
     "villaTitle": "Our Villa | Fairways Villa Belek",
     "villaDescription": "Explore the luxurious rooms, premium facilities, and beautiful surroundings of Fairways Villa Belek."
+  },
+  "aeoFacts": {
+    "location": "Located in Kadriye, Belek, Antalya, Turkey, very close to The Land of Legends.",
+    "amenities": "Private swimming pool, 3 luxury bedrooms, AC, free Wi-Fi, and a fully equipped kitchen.",
+    "idealFor": "Perfectly suited for family vacations, golf groups, and tourists looking for privacy."
   }
 }

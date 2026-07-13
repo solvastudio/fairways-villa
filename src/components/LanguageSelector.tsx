@@ -2,11 +2,12 @@ import { useState, useRef, useEffect } from "react"
 import { useTranslation } from "react-i18next"
 
 export interface Language {
-  code: "en" | "tr" | "ru"
+  code: "id" | "en" | "tr" | "ru"
   label: string
 }
 
 const languages: Language[] = [
+  { code: "id", label: "Indonesia" },
   { code: "en", label: "English" },
   { code: "tr", label: "Türkçe" },
   { code: "ru", label: "Русский" },
@@ -19,7 +20,7 @@ interface LanguageSelectorProps {
 
 export function LanguageSelector({ variant = "desktop", className = "" }: LanguageSelectorProps) {
   const { i18n } = useTranslation()
-  const currentLang = (i18n.resolvedLanguage || "en") as "en" | "tr" | "ru"
+  const currentLang = (i18n.resolvedLanguage || "en") as "id" | "en" | "tr" | "ru"
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 

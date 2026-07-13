@@ -1,0 +1,318 @@
+{
+  "navigation": {
+    "gallery": "galeri",
+    "amenities": "fasilitas",
+    "location": "lokasi",
+    "about": "tentang kami",
+    "accommodation": "akomodasi",
+    "contactUs": "hubungi kami",
+    "celebrations": "perayaan",
+    "experiences": "pengalaman"
+  },
+  "common": {
+    "reserve": "PESAN",
+    "viewDetail": "LIHAT DETAIL",
+    "seeMore": "LIHAT LEBIH BANYAK"
+  },
+  "hero": {
+    "bgAlt": "Latar Belakang Fairways Villa",
+    "scrollLabel": "Gulir ke Bawah ke Tentang Kami"
+  },
+  "about": {
+    "tag": "Tentang Kami",
+    "heading": "Temukan Jalan <italic>yang</italic> Tepat, <br/> sentuhan keharmonisan <italic>yang</italic> elegan",
+    "description": "Terinspirasi oleh jalur fairway yang murni, Fairways Villa adalah tempat perlindungan yang tenang di mana kebisingan memudar dan kejelasan dimulai. Dirancang dengan ketelitian cermat di tengah ketenangan alam, kami menawarkan lebih dari sekadar masa inap yang mewah—ini adalah transisi menuju kedamaian mutlak. Melangkah masuk, pulihkan keseimbangan Anda, dan biarkan kami menyambut Anda dalam perjalanan pulang yang indah.",
+    "locationPinAlt": "Pin Lokasi",
+    "address": "Kadriye, 07525 Serik/Antalya, Turki, V29H+7H Serik, Antalya, Turki",
+    "atAGlance": "Sekilas Villa",
+    "glanceLocation": "Lokasi",
+    "glanceAmenities": "Fasilitas Utama",
+    "glanceIdeal": "Cocok Untuk"
+  },
+  "villa": {
+    "bgAlt": "Latar Belakang Fairways Villa",
+    "title": "fairways villa",
+    "priceAlt": "Harga",
+    "pricePerNight": "300/malam",
+    "priceUnit": "malam",
+    "bedrooms": "3 Kamar Tidur",
+    "bathrooms": "2 Kamar Mandi",
+    "detailTitle": "detail villa"
+  },
+  "gallery": {
+    "tag": "galeri",
+    "title": "melihat lebih dekat",
+    "description": "Temukan desain, tekstur, dan momen yang membuat villa ini benar-benar istimewa.",
+    "alt1": "Ruang Tamu Villa Luas",
+    "alt2": "Sudut Ruang Tamu Villa",
+    "alt3": "Kamar Tidur Villa dengan Selimut Merah",
+    "alt4": "Kolam Renang dan Taman Villa",
+    "alt5": "Kamar Tidur Villa Nyaman",
+    "alt6": "Kamar Tidur Villa Bergaya Abu-abu",
+    "alt7": "Eksterior Villa dan Langit Biru"
+  },
+  "neighbourhood": {
+    "tag": "Lingkungan sekitar",
+    "title": "Lingkungan Sekitar",
+    "description": "Berlokasi ideal di lingkungan yang tenang namun strategis, villa ini menawarkan akses mudah ke tempat-tempat wisata utama, tempat makan, dan tujuan rekreasi—memungkinkan Anda menikmati privasi dan kenyamanan sepanjang masa inap Anda.",
+    "cards": {
+      "kadriye": "Pantai Kadriye",
+      "legends": "Taman Hiburan The Land of Legends",
+      "aspendos": "Teater Kuno Aspendos",
+      "belek": "Pantai Umum Belek"
+    },
+    "headers": {
+      "transportation": "Transportasi",
+      "beaches": "Pantai",
+      "attractions": "Hiburan & Atraksi",
+      "conveniences": "Kenyamanan Terdekat",
+      "markets": "Pasar & Perbelanjaan"
+    },
+    "transportationList": [
+      { "name": "Bandara Antalya", "detail": "30 km (25–30 menit)" },
+      { "name": "Pusat Kota Antalya", "detail": "38 KM (35–40 menit)" },
+      { "name": "Kaleiçi (Kota Tua Antalya)", "detail": "40 KM (40 menit)" },
+      { "name": "Pusat Kota Serik", "detail": "10 KM" },
+      { "name": "Pusat Belek", "detail": "4 KM" }
+    ],
+    "beachesList": [
+      { "name": "Pantai Umum Kadriye", "detail": "3 KM (5 menit)" },
+      { "name": "Pantai Umum Belek", "detail": "6 KM" },
+      { "name": "Pantai hotel pribadi di Belek", "detail": "5–10 menit" }
+    ],
+    "attractionsList": [
+      {
+        "name": "Taman Hiburan The Land of Legends",
+        "detail": "2.7 KM (5 menit)"
+      },
+      { "name": "Lapangan golf kelas dunia", "detail": "2–5 menit" },
+      { "name": "Teater Kuno Aspendos", "detail": "20 KM (20 menit)" },
+      { "name": "Kota Kuno Perge", "detail": "30 KM" },
+      { "name": "Air Terjun Kurşunlu", "detail": "32 KM" },
+      { "name": "Antalya Kaleici & Marina", "detail": "40 KM" },
+      { "name": "Kereta Gantung Tünektepe", "detail": "50 KM" },
+      { "name": "Air Terjun Düden", "detail": "35 KM" }
+    ],
+    "conveniencesList": [
+      { "name": "Restoran & kafe" },
+      { "name": "Apotek" },
+      { "name": "ATM" },
+      { "name": "Toko souvenir" },
+      { "name": "Tempat belanja" }
+    ],
+    "marketsList": [
+      { "name": "ALİÇO MARKET 1" },
+      { "name": "SKY MARKET" },
+      { "name": "Kaya Market" },
+      { "name": "Yıldız Market" },
+      { "name": "Pasar Selasa Kadriye" }
+    ]
+  },
+  "faq": {
+    "tag": "Pertanyaan yang Sering Diajukan",
+    "title": "Segala Hal yang Perlu Anda Ketahui",
+    "leftFaqItems": [
+      {
+        "id": "guests",
+        "question": "Berapa banyak tamu yang bisa menginap di Fairways villa?",
+        "answer": "Fairways villa dapat mengakomodasi hingga 6 tamu dengan nyaman, menjadikannya sempurna untuk liburan keluarga atau grup kecil."
+      },
+      {
+        "id": "private-pool",
+        "question": "Apakah ada kolam renang pribadi untuk tamu yang menginap di Fairways villa?",
+        "answer": "Ya, tamu dapat menikmati kolam renang luar ruangan yang sepenuhnya pribadi, lengkap dengan kursi berjemur dan pemandangan taman, menjamin privasi mutlak."
+      },
+      {
+        "id": "has-pool",
+        "question": "Apakah Fairways villa memiliki kolam renang?",
+        "answer": "Ya, villa ini memiliki kolam renang pribadi dengan pemandangan, yang baru-baru ini direnovasi dan dirawat dengan standar tertinggi."
+      },
+      {
+        "id": "balcony",
+        "question": "Apakah Fairways villa memiliki balkon?",
+        "answer": "Ya, villa ini memiliki balkon yang menawarkan pemandangan indah ke kolam renang dan taman lanskap di sekitarnya."
+      },
+      {
+        "id": "terrace",
+        "question": "Apakah Fairways villa memiliki teras?",
+        "answer": "Ya, terdapat teras/patio luar ruangan yang luas yang dilengkapi dengan tempat duduk, ideal untuk bersantap di luar ruangan atau bersantai di malam hari."
+      }
+    ],
+    "rightFaqItems": [
+      {
+        "id": "check-in-out",
+        "question": "Jam berapa waktu check-in dan check-out di Fairways villa?",
+        "answer": "Check-in di Fairways villa adalah mulai pukul 12:00 siang, dan check-out paling lambat pukul 10:00 pagi. Waktu check-in/out dinamis dapat diminta tergantung pada ketersediaan."
+      },
+      {
+        "id": "bedrooms",
+        "question": "Berapa banyak kamar tidur yang dimiliki Fairways villa?",
+        "answer": "Fairways villa memiliki 3 kamar tidur yang ditata dengan elegan, dirancang untuk kenyamanan dan relaksasi maksimal."
+      },
+      {
+        "id": "cost",
+        "question": "Berapa biaya menginap di Fairways villa?",
+        "answer": "Biaya menginap di Fairways villa bervariasi tergantung pada tanggal Anda, durasi menginap, dan kebijakan akomodasi. Silakan masukkan tanggal pilihan Anda untuk melihat harga pasti."
+      },
+      {
+        "id": "things-to-do",
+        "question": "Apa saja yang bisa dilakukan di Fairways villa?",
+        "answer": "Tamu dapat berenang di kolam renang pribadi, bersantai di taman atau area lounge bersama, atau menjelajahi lapangan golf kelas dunia dan Pantai Umum Kadriye di dekatnya."
+      },
+      {
+        "id": "distance-center",
+        "question": "Berapa jarak Fairways villa dari pusat Belek?",
+        "answer": "Fairways villa berjarak 2,6 km dari pusat Belek."
+      }
+    ]
+  },
+  "testimoni": {
+    "tag": "Pengalaman Tamu",
+    "title": "Cerita dari Tamu Kami",
+    "reviews": [
+      {
+        "id": "stuart",
+        "text": "Telah mengunjungi Turki setiap tahun selama 15 tahun terakhir, dan ini adalah liburan terbaik sejauh ini",
+        "name": "Stuart",
+        "country": "Britania Raya"
+      },
+      {
+        "id": "impram",
+        "text": "Pasti tahun depan kembali lagi ke Fairways Villa",
+        "name": "Impram",
+        "country": "Jerman"
+      },
+      {
+        "id": "fielding",
+        "text": "Sinan adalah tuan rumah yang hebat, dia menyambut kami saat kedatangan di villa dan menyediakan makanan dan minuman. Dia juga suatu hari...",
+        "name": "Fielding",
+        "country": "Britania Raya"
+      }
+    ]
+  },
+  "cta": {
+    "bgAlt": "Retret Kamar Tidur Villa",
+    "tag": "Pelarian Eksklusif",
+    "title": "Surga Mediterania Pribadi Anda Menanti",
+    "description": "Bersantailah dalam kemewahan dan privasi mutlak di Fairways Villa Belek. Hubungi kami langsung di WhatsApp untuk mengamankan pesanan Anda, menikmati layanan yang dipersonalisasi, dan mendapatkan jaminan harga langsung terbaik.",
+    "buttonLabel": "Pesan Sekarang"
+  },
+  "footer": {
+    "contactUs": "Hubungi Kami",
+    "location": "Lokasi",
+    "address": "Kadriye, 07525 Serik/Antalya, Turki, V29H+7H Serik, Antalya, Turki",
+    "rights": "solva studio HAK CIPTA DILINDUNGI UNDANG-UNDANG",
+    "logoTitle": "fairways",
+    "logoSubtitle": "villa"
+  },
+  "villaDetail": {
+    "overview": "Ikhtisar",
+    "overviewText": "Fairways villa di Belek menawarkan villa yang luas dan baru saja direnovasi dengan tiga kamar tidur dan dua kamar mandi. Akomodasi ini memiliki ruang tamu, layanan check-in dan check-out pribadi, dan resepsionis 24 jam.",
+    "pricePerNight": "300/",
+    "priceUnit": "malam",
+    "guestsMax": "Maks 6 Tamu",
+    "exceptionalStay": "10.0 / 10 Masa Inap Luar Biasa",
+    "address": "Kadriye, 07525 Serik/Antalya, Turki, V29H+7H Serik, Antalya, Turki",
+    "highlights": "Sorotan",
+    "facilities": "Fasilitas",
+    "propertyDetails": "Detail Properti",
+    "checkIn": "Check-in",
+    "checkInTime": "12:00 - 00:00",
+    "checkOut": "Check-out",
+    "checkOutTime": "Hingga 10:00",
+    "bedrooms": "3 Kamar Tidur",
+    "bedroomsBed": "1 tempat tidur double besar",
+    "bathrooms": "2 Kamar Mandi",
+    "villaSize": "Ukuran villa",
+    "villaSizeVal": "210 m²",
+    "livingRoom": "Ruang tamu",
+    "livingRoomBeds": "2 tempat tidur sofa",
+    "convenientLocation": "Lokasi yang Nyaman",
+    "airportDist": "32 km dari Bandara Antalya",
+    "legendsDist": "Taman Hiburan The Land of Legends (2.8 km)",
+    "aspendosDist": "Amfiteater Aspendos (19 km)",
+    "popularFacilities": "Fasilitas Populer",
+    "familyRooms": "Kamar keluarga",
+    "frontDesk": "Resepsionis 24 jam",
+    "nonSmoking": "Kamar bebas rokok",
+    "freeParking": "Parkir gratis",
+    "airportShuttle": "Antar-jemput bandara",
+    "freeWifi": "WiFi gratis",
+    "garden": "Taman",
+    "terrace": "Teras",
+    "pool": "Kolam renang luar ruangan",
+    "staff": "Staf Multibahasa (Inggris, Jerman, Rusia, Turki)",
+    "facilitiesCategories": {
+      "inVillaComfort": "Kenyamanan di Dalam Villa",
+      "livingEntertainment": "Ruang Tamu & Hiburan",
+      "outdoorLiving": "Kehidupan Luar Ruangan",
+      "wellnessActivities": "Kebugaran & Aktivitas",
+      "servicesTransport": "Layanan & Transportasi",
+      "safetyGeneral": "Keamanan & Umum"
+    },
+    "facilitiesSubcategories": {
+      "bedroom": "Kamar Tidur",
+      "bathroom": "Kamar Mandi",
+      "kitchenDining": "Dapur & Ruang Makan",
+      "general": "Umum",
+      "livingEntertainment": "Ruang Tamu & Hiburan",
+      "outdoorLiving": "Kehidupan Luar Ruangan",
+      "wellnessActivities": "Kebugaran & Aktivitas",
+      "servicesTransport": "Layanan & Transportasi",
+      "safetyGeneral": "Keamanan & Umum"
+    },
+    "facilitiesItems": {
+      "premiumLinen": "Seprai Premium",
+      "wardrobeDressing": "Lemari Pakaian / Ruang Ganti",
+      "extraLongBeds": "Tempat Tidur Ekstra Panjang (>2m)",
+      "privateBathroom": "Kamar Mandi Pribadi",
+      "showerBathtub": "Pancuran & Bak Mandi",
+      "towelsToiletries": "Handuk & Perlengkapan Mandi",
+      "hairdryerSlippers": "Pengering Rambut & Sandal",
+      "fullyEquippedKitchen": "Dapur Lengkap",
+      "coffeeMachineOvenStovetop": "Mesin Kopi, Oven, Kompor",
+      "refrigeratorKitchenware": "Kulkas & Peralatan Dapur",
+      "diningTable": "Meja Makan",
+      "electricKettle": "Ketel Listrik",
+      "childrensHighChair": "Kursi Tinggi Anak",
+      "washingMachineDishwasher": "Mesin Cuci & Mesin Pencuci Piring",
+      "freeWifiAll": "WiFi gratis (seluruh area)",
+      "airConditioning": "AC",
+      "sofaLoungeDiningArea": "Area Sofa & Ruang Makan",
+      "workspaceDesk": "Area Kerja / Meja",
+      "flatScreenTvCableChannels": "TV Layar Datar & Saluran Kabel",
+      "privatePool": "Kolam Renang Pribadi",
+      "sunTerraceBalcony": "Teras Berjemur & Balkon",
+      "gardenPatio": "Taman & Patio",
+      "outdoorDiningArea": "Area Makan Luar Ruangan",
+      "bbqFacilities": "Fasilitas BBQ",
+      "massageServices": "Layanan Pijat (biaya tambahan)",
+      "sunLoungers": "Kursi Berjemur",
+      "beachAccess": "Akses Pantai",
+      "golfCourse": "Lapangan golf (dalam radius 3 km)",
+      "cyclingDivingHorseRiding": "Bersepeda, Menyelam, Berkuda",
+      "frontDesk24h": "Resepsionis 24 Jam",
+      "privateCheckInOut": "Check-in / Check-out Pribadi",
+      "housekeepingOnRequest": "Pembersihan Kamar (berdasarkan permintaan)",
+      "airportShuttleAdd": "Antar-jemput Bandara (biaya tambahan)",
+      "carBicycleRental": "Penyewaan Mobil & Sepeda",
+      "privateParkingOnSite": "Parkir Pribadi (di lokasi)",
+      "safetyDepositBox": "Kotak Pengaman",
+      "smokeAlarmsFireExtinguishers": "Alarm Asap & Alat Pemadam Kebakaran",
+      "soundproofRooms": "Kamar Kedap Suara",
+      "nonSmokingAreas": "Area Bebas Rokok",
+      "multilingualStaffDetail": "Staf Multibahasa (Inggris, Jerman, Rusia, Turki)"
+    }
+  },
+  "seo": {
+    "homeTitle": "Sewa Villa Mewah di Belek, Turki | Fairways Villa",
+    "homeDescription": "Cari villa terbaik untuk disewa di Belek, Turki? Fairways Villa menawarkan kolam renang pribadi, pemandangan lapangan golf, dan fasilitas mewah. Pesan sekarang!",
+    "villaTitle": "Detail Villa | Fairways Villa Belek Turki",
+    "villaDescription": "Jelajahi kamar-kamar mewah, fasilitas premium, dan lingkungan yang indah di Fairways Villa Belek Turki."
+  },
+  "aeoFacts": {
+    "location": "Terletak di Kadriye, Belek, Antalya, Turki, sangat dekat dengan The Land of Legends.",
+    "amenities": "Kolam renang pribadi, 3 kamar tidur mewah, AC, Wi-Fi gratis, dan dapur lengkap.",
+    "idealFor": "Sangat cocok untuk liburan keluarga, grup golf, dan turis yang mencari privasi."
+  }
+}
