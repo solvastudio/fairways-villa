@@ -29,6 +29,7 @@ export default function Hero() {
             isMounted ? "scale-100" : "scale-105"
           }`}
           loading="eager"
+          fetchPriority="high"
         />
         {/* Subtle dark gradient overlay to ensure header legibility */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/20" />

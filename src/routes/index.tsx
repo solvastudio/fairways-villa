@@ -1,16 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { createFileRoute } from "@tanstack/react-router";
 import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
-import Villa from "../components/Villa";
-import Gallery from "../components/Gallery";
-import Neighbourhood from "../components/Neighbourhood";
-import Testimoni from "../components/Testimoni";
-import Faq from "../components/Faq";
-import CTA from "../components/CTA";
-import LocationFooter from "../components/LocationFooter";
 import SEOMeta from "../components/SEOMeta";
+
+const Villa = lazy(() => import("../components/Villa"));
+const Gallery = lazy(() => import("../components/Gallery"));
+const Neighbourhood = lazy(() => import("../components/Neighbourhood"));
+const Testimoni = lazy(() => import("../components/Testimoni"));
+const Faq = lazy(() => import("../components/Faq"));
+const CTA = lazy(() => import("../components/CTA"));
+const LocationFooter = lazy(() => import("../components/LocationFooter"));
 
 export const Route = createFileRoute("/")({ component: App });
 
@@ -57,13 +58,15 @@ function App() {
       <SEOMeta page="home" />
       <Hero />
       <AboutUs />
-      <Villa />
-      <Gallery />
-      <Neighbourhood />
-      <Testimoni />
-      <Faq />
-      <CTA />
-      <LocationFooter />
+      <Suspense fallback={null}>
+        <Villa />
+        <Gallery />
+        <Neighbourhood />
+        <Testimoni />
+        <Faq />
+        <CTA />
+        <LocationFooter />
+      </Suspense>
     </main>
   );
 }
