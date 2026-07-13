@@ -48,9 +48,11 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-30 px-4 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-sm py-4 border-b border-black/5 dark:border-white/5"
-          : "absolute py-5 lg:py-[47px]"
+        isOpen
+          ? "bg-white dark:bg-black py-4 shadow-none"
+          : isScrolled
+            ? "bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-sm py-4 border-b border-black/5 dark:border-white/5"
+            : "absolute py-5 lg:py-[47px]"
       } lg:px-[4%]`}
     >
       <div className="max-w-[1620px] mx-auto flex items-center justify-between">
@@ -127,7 +129,7 @@ export default function Header() {
 
       {/* Mobile Drawer Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 bg-white z-40 flex flex-col justify-between px-6 py-10 animate-in fade-in slide-in-from-top duration-300">
+        <div className="fixed inset-0 bg-white dark:bg-black z-40 flex flex-col justify-between px-6 py-10 animate-in fade-in slide-in-from-top duration-300">
           <div className="flex flex-col gap-8 mt-20">
             {navLinks.map((link) => 
               link.to.startsWith("/") ? (
@@ -135,7 +137,7 @@ export default function Header() {
                   key={link.key}
                   to={link.to}
                   onClick={() => setIsOpen(false)}
-                  className="font-haas text-2xl tracking-[1px] uppercase text-text-dark hover:opacity-70 transition-opacity"
+                  className="font-haas text-2xl tracking-[1px] uppercase text-text-dark dark:text-white hover:opacity-70 transition-opacity"
                 >
                   {t(`navigation.${link.key}`)}
                 </Link>
@@ -144,7 +146,7 @@ export default function Header() {
                   key={link.key}
                   href={link.to}
                   onClick={(e) => handleScroll(e, link.to)}
-                  className="font-haas text-2xl tracking-[1px] uppercase text-text-dark hover:opacity-70 transition-opacity"
+                  className="font-haas text-2xl tracking-[1px] uppercase text-text-dark dark:text-white hover:opacity-70 transition-opacity"
                 >
                   {t(`navigation.${link.key}`)}
                 </a>
