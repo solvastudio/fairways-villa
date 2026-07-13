@@ -40,7 +40,7 @@ export function LanguageSelector({ variant = "desktop", className = "" }: Langua
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1.5 font-haas text-[16px] tracking-[0.8px] uppercase text-text-dark lg:text-white cursor-pointer focus:outline-none"
+        className="flex items-center gap-1.5 font-haas text-[16px] tracking-[0.8px] uppercase text-text-dark lg:text-inherit cursor-pointer focus:outline-none"
       >
         {variant === "mobile" ? (
           <span className="text-lg tracking-[1px]">Language: {currentLang}</span>

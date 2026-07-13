@@ -14,7 +14,7 @@ export function Logo({ className = '', iconClassName = '' }: LogoProps) {
     <div className={`flex flex-col items-center gap-3 md:gap-5  ${className}`}>
       {/* Star/Ornament Vector */}
       <svg
-        className={`size-10 md:size-[50px] text-white ${iconClassName}`}
+        className={`size-10 md:size-[50px] text-current ${iconClassName}`}
         viewBox="0 0 50 50"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export function Logo({ className = '', iconClassName = '' }: LogoProps) {
       </svg>
 
       {/* Brand Text */}
-      <div className="flex flex-col items-center leading-none text-white uppercase">
+      <div className="flex flex-col items-center leading-none text-current uppercase">
         <span className="font-cormorant font-medium text-2xl md:text-4xl tracking-[3.6px]">
           {t("footer.logoTitle")}
         </span>

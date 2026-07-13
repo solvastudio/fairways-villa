@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link } from "@tanstack/react-router"
 import { Menu, X } from "lucide-react"
 import { useTranslation } from "react-i18next"
@@ -19,7 +19,20 @@ const navLinks: LinkItem[] = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
   const { t } = useTranslation()
+
+  useEffect(() => {
+    const handleScrollListener = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
+    }
+    window.addEventListener("scroll", handleScrollListener)
+    return () => window.removeEventListener("scroll", handleScrollListener)
+  }, [])
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, to: string) => {
     if (to.startsWith("#")) {
@@ -33,11 +46,21 @@ export default function Header() {
   }
 
   return (
-    <header className="absolute top-0 left-0 w-full z-30 px-4 py-5 lg:px-[4%] lg:py-[47px]">
+    <header
+      className={`fixed top-0 left-0 w-full z-30 px-4 transition-all duration-300 ${
+        isScrolled
+          ? "bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-sm py-4 border-b border-black/5 dark:border-white/5"
+          : "absolute py-5 lg:py-[47px]"
+      } lg:px-[4%]`}
+    >
       <div className="max-w-[1620px] mx-auto flex items-center justify-between">
         
         {/* Left Side: Navigation Links (Desktop only) */}
-        <nav className="hidden lg:flex items-center gap-10 font-haas text-[16px] tracking-[0.8px] uppercase text-white w-[400px]">
+        <nav
+          className={`hidden lg:flex items-center gap-10 font-haas text-[16px] tracking-[0.8px] uppercase w-[400px] transition-colors duration-300 ${
+            isScrolled ? "text-text-dark dark:text-white" : "text-white"
+          }`}
+        >
           {navLinks.map((link) => 
             link.to.startsWith("/") ? (
               <Link
@@ -62,14 +85,22 @@ export default function Header() {
         </nav>
 
         {/* Center: Logo (Centered on desktop, left/center on mobile) */}
-        <div className="flex-1 lg:flex-none flex justify-start lg:justify-center">
+        <div
+          className={`flex-1 lg:flex-none flex justify-start lg:justify-center transition-colors duration-300 ${
+            isScrolled ? "text-text-dark dark:text-white" : "text-white"
+          }`}
+        >
           <Link to="/">
             <Logo className="scale-90 md:scale-100" />
           </Link>
         </div>
 
         {/* Right Side: Language & CTA Button (Desktop only) */}
-        <div className="hidden lg:flex items-center gap-[30px] w-[400px] justify-end">
+        <div
+          className={`hidden lg:flex items-center gap-[30px] w-[400px] justify-end transition-colors duration-300 ${
+            isScrolled ? "text-text-dark dark:text-white" : "text-white"
+          }`}
+        >
           {/* Language Selector */}
           <LanguageSelector variant="desktop" />
 
@@ -80,10 +111,16 @@ export default function Header() {
         {/* Mobile Hamburger Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden  focus:outline-none z-50 p-2 text-white"
+          className={`lg:hidden focus:outline-none z-50 p-2 transition-colors duration-300 ${
+            isOpen
+              ? "text-text-dark"
+              : isScrolled
+                ? "text-text-dark dark:text-white"
+                : "text-white"
+          }`}
           aria-label="Toggle menu"
         >
-          {isOpen ? <X className="size-6 text-text-dark" /> : <Menu className="size-6" />}
+          {isOpen ? <X className="size-6" /> : <Menu className="size-6" />}
         </button>
 
       </div>
