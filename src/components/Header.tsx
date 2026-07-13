@@ -47,12 +47,14 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-30 px-4 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-30 px-4 ${
         isOpen
           ? "bg-white dark:bg-black py-4 shadow-none"
-          : isScrolled
-            ? "bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-sm py-4 border-b border-black/5 dark:border-white/5"
-            : "absolute py-5 lg:py-[47px]"
+          : "transition-all duration-300 " + (
+              isScrolled
+                ? "bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-sm py-4 border-b border-black/5 dark:border-white/5"
+                : "bg-transparent py-5 lg:py-[47px]"
+            )
       } lg:px-[4%]`}
     >
       <div className="max-w-[1620px] mx-auto flex items-center justify-between">
