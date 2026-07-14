@@ -6,7 +6,15 @@ import CTA from "../components/CTA";
 import LocationFooter from "../components/LocationFooter";
 import SEOMeta from "../components/SEOMeta";
 
+import i18n from "../i18n";
+
 export const Route = createFileRoute("/villa")({
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.villaTitle") },
+      { name: "description", content: i18n.t("seo.villaDescription") },
+    ],
+  }),
   component: VillaDetail,
 });
 

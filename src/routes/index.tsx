@@ -13,7 +13,17 @@ const Faq = lazy(() => import("../components/Faq"));
 const CTA = lazy(() => import("../components/CTA"));
 const LocationFooter = lazy(() => import("../components/LocationFooter"));
 
-export const Route = createFileRoute("/")({ component: App });
+import i18n from "../i18n";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: i18n.t("seo.homeTitle") },
+      { name: "description", content: i18n.t("seo.homeDescription") },
+    ],
+  }),
+  component: App,
+});
 
 function App() {
   const { t } = useTranslation();
