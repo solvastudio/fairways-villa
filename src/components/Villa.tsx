@@ -30,15 +30,6 @@ export default function Villa() {
         {/* Villa Features */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 lg:gap-[91px] w-full">
           <VillaFeatureItem
-            icon={<img src="/assets/villa/price.svg" alt={t("villa.priceAlt")} className="w-full h-full" />}
-            text={
-              <>
-                <span className="font-semibold text-lg md:text-[24px]">300/</span>
-                <span className="text-base md:text-[20px] lowercase font-normal">{t("villa.priceUnit")}</span>
-              </>
-            }
-          />
-          <VillaFeatureItem
             icon={<img src="/assets/villa/bed.svg" alt="Bed" className="w-full h-full" />}
             text={t("villa.bedrooms")}
           />

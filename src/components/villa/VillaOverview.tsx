@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Euro, Users, Star, MapPin } from "lucide-react";
+import { Users, Star, MapPin } from "lucide-react";
 import QuickStat from "../ui/QuickStat";
 import DetailItem from "../ui/DetailItem";
 import {
@@ -61,19 +61,6 @@ export default function VillaOverview() {
 
         {/* Quick Stats Bar */}
         <div className="border-y border-[#c97a4a]/20 py-6 lg:py-[25px] flex flex-col md:flex-row flex-wrap gap-6 lg:gap-[86px] justify-between items-start md:items-center w-full">
-          {/* Price Stat */}
-          <QuickStat
-            icon={<Euro className="w-[30px] h-[30px] stroke-[1.5]" />}
-            content={
-              <span className="font-normal">
-                {t("villaDetail.pricePerNight")}
-                <span className="font-light text-text-dark/80 lowercase">
-                  {t("villaDetail.priceUnit")}
-                </span>
-              </span>
-            }
-          />
-
           {/* Guests Stat */}
           <QuickStat
             icon={<Users className="w-[30px] h-[30px] stroke-[1.5]" />}
