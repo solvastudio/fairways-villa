@@ -142,7 +142,7 @@
       {
         "id": "check-in-out",
         "question": "What are the check-in and check-out times at Fairways villa?",
-        "answer": "Check-in at Fairways villa is from 12:00 PM onwards, and check-out is required by 10:00 AM. Dynamic check-in/out can be requested depending on availability."
+        "answer": "Check-in at Fairways villa is from 2:00 PM onwards, and check-out is required by 10:00 AM. Dynamic check-in/out can be requested depending on availability."
       },
       {
         "id": "bedrooms",
@@ -217,7 +217,7 @@
     "facilities": "Facilities",
     "propertyDetails": "Property Details",
     "checkIn": "Check-in",
-    "checkInTime": "12:00 - 00:00",
+    "checkInTime": "14:00 - 00:00",
     "checkOut": "Check-out",
     "checkOutTime": "Until 10:00",
     "bedrooms": "3 Bedrooms",

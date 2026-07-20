@@ -142,7 +142,7 @@
       {
         "id": "check-in-out",
         "question": "Fairways Villa'da giriş ve çıkış saatleri nelerdir?",
-        "answer": "Fairways Villa'ya giriş saati 12:00'den itibaren başlar, çıkış saati ise en geç 10:00'dur. Müsaitliğe bağlı olarak esnek giriş/çıkış talep edilebilir."
+        "answer": "Fairways Villa'ya giriş saati 14:00'ten itibaren başlar, çıkış saati ise en geç 10:00'dur. Müsaitliğe bağlı olarak esnek giriş/çıkış talep edilebilir."
       },
       {
         "id": "bedrooms",
@@ -217,7 +217,7 @@
     "facilities": "Olanaklar",
     "propertyDetails": "Mülk Detayları",
     "checkIn": "Giriş",
-    "checkInTime": "12:00 - 00:00",
+    "checkInTime": "14:00 - 00:00",
     "checkOut": "Çıkış",
     "checkOutTime": "10:00'a kadar",
     "bedrooms": "3 Yatak Odası",

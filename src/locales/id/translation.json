@@ -142,7 +142,7 @@
       {
         "id": "check-in-out",
         "question": "Jam berapa waktu check-in dan check-out di Fairways villa?",
-        "answer": "Check-in di Fairways villa adalah mulai pukul 12:00 siang, dan check-out paling lambat pukul 10:00 pagi. Waktu check-in/out dinamis dapat diminta tergantung pada ketersediaan."
+        "answer": "Check-in di Fairways villa adalah mulai pukul 14:00 siang, dan check-out paling lambat pukul 10:00 pagi. Waktu check-in/out dinamis dapat diminta tergantung pada ketersediaan."
       },
       {
         "id": "bedrooms",
@@ -217,7 +217,7 @@
     "facilities": "Fasilitas",
     "propertyDetails": "Detail Properti",
     "checkIn": "Check-in",
-    "checkInTime": "12:00 - 00:00",
+    "checkInTime": "14:00 - 00:00",
     "checkOut": "Check-out",
     "checkOutTime": "Hingga 10:00",
     "bedrooms": "3 Kamar Tidur",
